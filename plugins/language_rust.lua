@@ -12,6 +12,7 @@ syntax.add {
     { pattern = { '"', '"', '\\' },     type = "string"   },
     { pattern = "'.'",                  type = "string"   },
     { pattern = "'%a",                  type = "keyword2" },
+    { pattern = "'static",              type = "keyword2" },
     { pattern = "0[oO_][0-7]+",         type = "number"   },
     { pattern = "-?0x[%x_]+",           type = "number"   },
     { pattern = "-?%d+_%d",             type = "number"   },
